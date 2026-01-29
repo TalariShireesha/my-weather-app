@@ -41,16 +41,12 @@ This will build the app and push it to the gh-pages branch.
 
 Note: Deployment is optional — the app can run locally without it.
 
-### `Environment Variables`
 
-The project uses a .env file to store the OpenWeather API key:
+> **Important:** Never push your `.env` file to GitHub to keep your API key safe.
 
-VITE_WEATHER_API_KEY=your_api_key_here
+---
 
-
-Important: Never push your .env file to GitHub to keep your API key safe.
-
-### `Learn More`
+### Learn More
 
 You can learn more about the technologies used:
 
@@ -58,28 +54,39 @@ You can learn more about the technologies used:
 - [Vite Documentation](https://vitejs.dev/)
 - [OpenWeather API Documentation](https://openweathermap.org/api)
 
-### `Code Splitting`
+---
+
+### Code Splitting
 
 For advanced performance optimizations in React, see [Code Splitting](https://reactjs.org/docs/code-splitting.html).
 
-### `Analyzing the Bundle Size`
+---
+
+### Analyzing the Bundle Size
 
 See [Analyzing the Bundle Size](https://vitejs.dev/guide/features.html#analyzing-bundle-size) for tips on checking the build size.
 
-### `Making a Progressive Web App`
+---
+
+### Making a Progressive Web App
 
 This app is not a PWA by default, but you can add PWA support using Vite plugins.  
 More info: [Vite PWA Plugin](https://vite-plugin-pwa.netlify.app/)
 
-### `Advanced Configuration`
+---
+
+### Advanced Configuration
 
 Advanced Vite configurations can be found here: [Vite Configuration](https://vitejs.dev/config/).
 
-### `Deployment`
+---
+
+### Deployment
 
 Refer to [Vite Deployment Docs](https://vitejs.dev/guide/static-deploy.html) for deployment guides.
+
+---
 
 ### `npm run build` fails to minify
 
 Refer to [Vite Troubleshooting](https://vitejs.dev/guide/troubleshooting.html#build-fails) if you encounter build errors.
-
