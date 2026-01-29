@@ -1,16 +1,85 @@
-# React + Vite
+# My Weather App
+This project is a **React + Vite Weather App** that fetches real-time weather data using the [OpenWeather API](https://openweathermap.org/api).  
+It allows you to search any city, toggle temperature units between Celsius and Fahrenheit, and see the weather conditions in a clean, responsive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Available Scripts
 
-Currently, two official plugins are available:
+In the project directory, you can run:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `npm install`
 
-## React Compiler
+Installs all dependencies required for the project.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### `npm run dev`
 
-## Expanding the ESLint configuration
+Runs the app in development mode using Vite.  
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The page will reload if you make edits, and you will see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production into the `dist` folder.  
+It correctly bundles React in production mode and optimizes the build for the best performance.  
+
+The build is minified and the filenames include hashes for caching purposes.  
+
+Your app is ready to be deployed.
+
+### `npm run preview`
+
+Serves the production build locally so you can preview the final app before deploying.
+
+### `npm run deploy` (Optional)
+
+If you want to deploy the app to GitHub Pages:
+
+```bash
+npm run deploy
+
+This will build the app and push it to the gh-pages branch.
+
+Note: Deployment is optional — the app can run locally without it.
+
+**### Environment Variables**
+
+The project uses a .env file to store the OpenWeather API key:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+
+
+Important: Never push your .env file to GitHub to keep your API key safe.
+
+**### Learn More**
+
+You can learn more about the technologies used:
+
+- [React Documentation](https://reactjs.org/)
+- [Vite Documentation](https://vitejs.dev/)
+- [OpenWeather API Documentation](https://openweathermap.org/api)
+
+**### Code Splitting**
+
+For advanced performance optimizations in React, see [Code Splitting](https://reactjs.org/docs/code-splitting.html).
+
+**### Analyzing the Bundle Size**
+
+See [Analyzing the Bundle Size](https://vitejs.dev/guide/features.html#analyzing-bundle-size) for tips on checking the build size.
+
+**### Making a Progressive Web App
+**
+This app is not a PWA by default, but you can add PWA support using Vite plugins.  
+More info: [Vite PWA Plugin](https://vite-plugin-pwa.netlify.app/)
+
+**### Advanced Configuration**
+
+Advanced Vite configurations can be found here: [Vite Configuration](https://vitejs.dev/config/).
+
+**### Deployment**
+
+Refer to [Vite Deployment Docs](https://vitejs.dev/guide/static-deploy.html) for deployment guides.
+
+**### `npm run build` fails to minify**
+
+Refer to [Vite Troubleshooting](https://vitejs.dev/guide/troubleshooting.html#build-fails) if you encounter build errors.
+
