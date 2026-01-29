@@ -1,7 +1,7 @@
 # My Weather App 🌤️
 
 A modern **React + Vite Weather Application** that fetches real-time
-weather data using the **OpenWeather API**.
+weather data using the [OpenWeather API](https://openweathermap.org/api).
 
 This app allows users to search for a city, use their current location,
 and toggle temperature units between Celsius and Fahrenheit.
