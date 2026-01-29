@@ -1,42 +1,73 @@
-### My Weather App
-This project is a **React + Vite Weather App** that fetches real-time weather data using the [OpenWeather API](https://openweathermap.org/api).  
-It allows you to search any city, toggle temperature units between Celsius and Fahrenheit, and see the weather conditions in a clean, responsive UI.
+# My Weather App 🌤️
+
+A modern **React + Vite Weather Application** that fetches real-time
+weather data using the **OpenWeather API**.
+
+This app allows users to search for a city, use their current location,
+and toggle temperature units between Celsius and Fahrenheit.
+
+------------------------------------------------------------------------
+
+## Features
+
+-   🌍 Search weather by city name\
+-   📍 Get weather using current location\
+-   🌡️ Toggle temperature units (°C / °F)\
+-   ☁️ Shows weather condition, humidity, and wind speed\
+-   ⏳ Loading indicator while fetching data\
+-   📱 Clean and responsive UI
+
+------------------------------------------------------------------------
+
+## Getting Started
+
+Follow these instructions to run the project locally.
+
+------------------------------------------------------------------------
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm install`
 
-Installs all dependencies required for the project.
+Installs all required dependencies.
 
 ### `npm run dev`
 
-Runs the app in development mode using Vite.  
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.  
-
-The page will reload if you make edits, and you will see any lint errors in the console.
+Runs the app in development mode.\
+Open <http://localhost:5173> to view it in the browser.
 
 ### `npm run build`
 
-Builds the app for production into the `dist` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.  
-
-The build is minified and the filenames include hashes for caching purposes.  
-
-Your app is ready to be deployed.
+Builds the app for production into the `dist` folder.
 
 ### `npm run preview`
 
-Serves the production build locally so you can preview the final app before deploying.
+Runs the production build locally.
 
 ### `npm run deploy` (Optional)
 
-If you want to deploy the app to GitHub Pages:
+Deploys the app to GitHub Pages.
 
-```bash
-npm run deploy
+------------------------------------------------------------------------
 
-This will build the app and push it to the gh-pages branch.
+## Environment Variables
 
-Note: Deployment is optional — the app can run locally without it.
+Create a `.env` file in the root directory:
+
+    VITE_WEATHER_API_KEY=your_api_key_here
+
+⚠️ Do not push `.env` to GitHub.
+
+------------------------------------------------------------------------
+
+## Learn More
+
+-   React: https://reactjs.org\
+-   Vite: https://vitejs.dev\
+-   OpenWeather API: https://openweathermap.org/api
+
+------------------------------------------------------------------------
+
+## License
+
+This project is open-source and free to use.
