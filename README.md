@@ -1,4 +1,4 @@
-# My Weather App
+t# My Weather App
 This project is a **React + Vite Weather App** that fetches real-time weather data using the [OpenWeather API](https://openweathermap.org/api).  
 It allows you to search any city, toggle temperature units between Celsius and Fahrenheit, and see the weather conditions in a clean, responsive UI.
 
